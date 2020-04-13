@@ -74,7 +74,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   // mission control
   [_NAV] = LAYOUT( \
   //,-----------------------------------------------------.                    ,-----------------------------------------------------.
-      LCMD(KC_TILD), KC_F11,  LCTL(KC_UP), KC__MUTE, KC__VOLDOWN, KC__VOLUP,               XXXXXXX, XXXXXXX, LCMD(KC_LBRC), LCMD(KC_RBRC), XXXXXXX, XXXXXXX,\
+      XXXXXXX, KC_F11,  LCTL(KC_UP), KC__MUTE, KC__VOLDOWN, KC__VOLUP,               XXXXXXX, XXXXXXX, LCMD(KC_LBRC), LCMD(KC_RBRC), XXXXXXX, XXXXXXX,\
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
       XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, LCAG(KC_F), XXXXXXX,              KC_LEFT, KC_DOWN,   KC_UP,KC_RIGHT, LCAG(KC_LBRC), LCAG(KC_RBRC),\
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
