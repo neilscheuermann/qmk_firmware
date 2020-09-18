@@ -72,14 +72,14 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
   // KC_F11 is to show the desktop, and LCTL(KC_UP) is to the show
   // mission control
-  // KC_F6 is to open MDPreviewer in the browser.
+  // KC_F6 is to open MDPreviewer in the browser will inside a .md file in vim.
   [_NAV] = LAYOUT( \
   //,-----------------------------------------------------.                    ,-----------------------------------------------------.
       XXXXXXX, KC_F11,  LCTL(KC_UP), KC__MUTE, KC__VOLDOWN, KC__VOLUP,               KC_F6, XXXXXXX, LCMD(KC_LBRC), LCMD(KC_RBRC), XXXXXXX, XXXXXXX,\
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
       XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, LCAG(KC_F), XXXXXXX,              KC_LEFT, KC_DOWN,   KC_UP,KC_RIGHT, LCAG(KC_LBRC), LCAG(KC_RBRC),\
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
-      _______, _______, _______, XXXXXXX, XXXXXXX, XXXXXXX,                      LCAG(KC_LEFT), LCAG(KC_DOWN), LCAG(KC_UP), LCAG(KC_RIGHT), LCAG(KC_SCLN), LCAG(KC_QUOT),\
+      _______, _______, _______, LCAG(KC_COMM), LCAG(KC_DOT), XXXXXXX,                      LCAG(KC_LEFT), LCAG(KC_DOWN), LCAG(KC_UP), LCAG(KC_RIGHT), LCAG(KC_SCLN), LCAG(KC_QUOT),\
   //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
                                               KC_LCMD,   LOWER,  KC_ENT,     KC_SPC,   RAISE, NAV \
                                       //`--------------------------'  `--------------------------'
